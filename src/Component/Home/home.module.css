@@ -1,0 +1,61 @@
+.main_Component{
+    padding: 0px;
+    margin: 0px;
+    padding-top: 6rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-color: rgba(211, 211, 211, 0.189);
+}
+.textarea{
+    background-color: white;
+    resize: none;
+    height: 100vh;
+    width: 50rem;
+    outline: none;
+    padding: 2rem;
+    border: 0px solid white;
+    margin-top: 1.7rem;
+    box-shadow: 20px 20px 50px #e1dfdf, 
+            -19px -19px 50px #e1dfdf;
+    margin-bottom:2rem ;        
+
+}
+.download_Wrapper{
+    position: fixed;
+    top: 32rem;
+    left: 70rem;
+    background-color: white;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.01rem solid gray;
+    cursor: pointer;
+}
+.download_Icon{
+    color: #1a73e8dc;
+    font-size: 1.5rem;
+}
+.information{
+    padding: 0px;
+    margin:0px;
+    position: absolute;
+    top: 30.8rem;
+    background-color: black;
+    color: white;
+    font-weight: 550;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 0.7rem;
+    position: fixed;
+
+}
+.image{
+    max-height: 24rem;
+    max-width: 24rem;
+}

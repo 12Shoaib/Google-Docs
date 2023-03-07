@@ -1,0 +1,128 @@
+.main_Component{
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    height: 6.3rem;
+    width: 100vw;
+    border-bottom: 0.01rem solid rgba(211, 211, 211, 0.781);
+    background-color: white;
+}
+.docs__Logo{
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 0px;
+    margin: 0px;
+    color: #1a73e8dc;
+    cursor: pointer;
+}
+.tittle_text{
+    height: 2rem;
+    width: 15rem;
+    background-color: transparent;
+    border: 0rem solid black;
+    padding: 0px;
+    margin: 0px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: gray;
+    outline: none;
+}
+.tittle_text:hover{
+    border: 0.01rem solid rgba(128, 128, 128, 0.571);
+    border-radius: 6px;
+}
+.tittle_text:focus{
+    border: 0.1rem solid #1a73e8dc;
+    border-radius: 6px;
+}
+.header_Section{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    position: fixed;
+}
+.name_Hover{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    font-family: inherit;
+    top:3rem;
+    left:6rem;
+    padding:2px 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.iconSection{
+    position: fixed;
+    margin-top: 3.7rem;
+    display: flex;
+    padding-left: 14rem;
+    padding-right: 27rem;
+    padding-top: 0.7rem;
+    border-top: 0.01rem solid rgba(211, 211, 211, 0.852);
+    gap: 1rem;
+    backdrop-filter: blur(100%);
+}
+.icon_Size{
+    font-size: 1.2rem;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(71, 68, 68);
+}
+.icon_Size:hover{
+    background-color: lightgray;
+    cursor: pointer;
+    /* padding: 1px; */
+}
+.icon_Size1{
+    font-size: 1.4rem;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(71, 68, 68);
+}
+.icon_Size1:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.button{
+    background-color: transparent;
+    outline: none;
+    border: 0rem solid lightgray;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(71, 68, 68);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 0.01rem solid  lightgray ;
+    cursor: pointer;
+
+}
+.button_Wrapper{
+    display: flex;
+    align-items: center;
+}
+.font_Size{
+    padding: 0px;
+    margin: 0px;
+    border-top: 0.01rem solid  lightgray ;
+    border-bottom: 0.01rem solid  lightgray ;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    cursor: pointer;
+}
+.button_style{
+    background-color: transparent;
+    border: 0px solid black;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+}
+.fileUpload{
+    display: none;
+}
