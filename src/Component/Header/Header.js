@@ -23,6 +23,8 @@ const Header = ({element_Control}) => {
     const [show , setShow] = useState(false)
     const [fontSize , setFontSize] = useState(4)
     const [zoom , setZoom] = useState('')
+    const [color, setColor] = useState('')
+    const [backgroundColor, setBackgroundColor] = useState('')
 
     const showValue = () => {
       setShow((prev) => !prev)
@@ -41,6 +43,15 @@ const Header = ({element_Control}) => {
     const handleFont = () => {
       document.execCommand("fontSize" , false , fontSize)
    }
+   function handleBackgroundColor(e) {
+    setBackgroundColor(e.target.value);
+    document.execCommand("backColor", false, e.target.value);
+    }
+    function handleFontColor(e) {
+      setColor(e.target.value);
+      console.log(e.target.value);
+      document.execCommand("foreColor", false, e.target.value);
+    }
    const handleZoom = (e) => {
     setZoom(e.target.value)
     if(e.target.value === "100%"){
@@ -87,6 +98,8 @@ const Header = ({element_Control}) => {
             <button className={header.button_style} onClick={handleOrderList} > <BiListOl className={header.icon_Size1}/></button>
             <button className={header.button_style} onClick={handleRemoveFormat}>  <MdFormatClear className={header.icon_Size}/></button>
             <button className={header.button_style} onClick={strikeThrough} > <TbStrikethrough className={header.icon_Size}/></button>
+            <input type="color" onChange={handleFontColor} value={color} />
+            <input type="color" onChange={handleBackgroundColor} value={backgroundColor} />
           </div>
         </div>
     )
